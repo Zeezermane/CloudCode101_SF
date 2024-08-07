@@ -5,6 +5,9 @@
 // You can also execute the entire file by running the command:
 //     SFDX: Execute Anonymous Apex with Editor Contents
 
-string tempvar = 'Rod';
-System.debug('Hello World!');
-System.debug('My name is ' + tempvar);
+// Decimal for holding money
+Decimal money = 100.00;
+system.debug(money);
+// Boolean for holding true or false
+String messageForHelloWorld = 'Hello World';
+System.debug(messageForHelloWorld);
